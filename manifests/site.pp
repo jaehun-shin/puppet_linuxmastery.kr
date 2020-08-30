@@ -8,7 +8,6 @@ node 'vm02.linuxmastery.kr' {
 }
 node 'vm03.linuxmastery.kr' {
   include base
-  include fortunecow
 }
 node default {
   notify { 'default_message':
