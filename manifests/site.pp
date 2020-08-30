@@ -8,6 +8,7 @@ node 'vm02.linuxmastery.kr' {
 }
 node 'vm03.linuxmastery.kr' {
   include base
+  include webapp
 }
 node default {
   notify { 'default_message':
